@@ -13,19 +13,13 @@ import org.bukkit.potion.PotionEffectType;
 
 public final class DeepslateInstamine extends JavaPlugin implements Listener {
 
-
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
-        System.out.println("You are running deepslate instamina");
         getServer().getPluginManager().registerEvents(this, this);
     }
 
     @EventHandler
     public void onBlockDamage(BlockDamageEvent event){
-
-
 
         Material block = event.getBlock().getType();
         ItemStack item = event.getItemInHand();
@@ -45,7 +39,6 @@ public final class DeepslateInstamine extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
         HandlerList.unregisterAll();
     }
 

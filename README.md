@@ -9,4 +9,5 @@ It will not be turned into a mod, although I will add more versions in the futur
 [Modrinth page](https://modrinth.com/plugin/deepslate-insta-mine)
 
 Made available under the [GNU GENERAL PUBLIC LICENSE v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Open_Source_Initiative_keyhole.svg/30px-Open_Source_Initiative_keyhole.svg.png)

@@ -1,0 +1,4 @@
+name: DeepslateInstamine
+version: '${version}'
+main: dev.catbreadisme.deepslateinstamine.DeepslateInstamine
+api-version: '1.20'

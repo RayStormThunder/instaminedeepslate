@@ -1,5 +1,6 @@
 # Insta-mine Deepslate
 ![An image of a deepslate block from minecraft](https://minecraft.wiki/images/Deepslate.png?7b6d7)
+
 Simple Minecraft server plugin written for my server that I share with friends.
 This plugin allows users to mine deepslate instantly with a netherite pickaxe, haste II and efficiency V.
 

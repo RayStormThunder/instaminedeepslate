@@ -25,8 +25,6 @@ public final class DeepslateInstamine extends JavaPlugin implements Listener {
         ItemStack item = event.getItemInHand();
         Player player = event.getPlayer();
 
-        System.out.println("Player: "+player.getName()+" is breaking a block");
-
         if (block == Material.DEEPSLATE
                 && item.containsEnchantment(Enchantment.DIG_SPEED)
                 && item.getEnchantmentLevel(Enchantment.DIG_SPEED) >= 5

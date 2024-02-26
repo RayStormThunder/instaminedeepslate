@@ -29,6 +29,7 @@ public final class DeepslateInstamine extends JavaPlugin implements Listener {
                 && item.containsEnchantment(Enchantment.DIG_SPEED)
                 && item.getEnchantmentLevel(Enchantment.DIG_SPEED) >= 5
                 && player.hasPotionEffect(PotionEffectType.FAST_DIGGING)
+                && player.hasPotionEffect(PotionEffectType.CONDUIT_POWER)
                 && player.getPotionEffect(PotionEffectType.FAST_DIGGING).getAmplifier() >= 1
                 && item.getType() == Material.NETHERITE_PICKAXE){
             event.setInstaBreak(true);
